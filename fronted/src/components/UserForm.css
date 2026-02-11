@@ -1,0 +1,31 @@
+.card1{
+    border: 2px solid black;
+    background-color: rgb(20, 194, 221);
+    margin-top: 50px;
+    margin: 30px;
+}
+.card1 button{
+    background-color: orange;
+    width: 150px;
+    margin: 20px;
+    color: black;
+    font-weight: bolder;
+}
+.card2{
+    border: 2px solid black;
+    background-color: rgb(212, 228, 235);
+    margin-top: 50px;
+    margin: 20px;
+}
+.table1{
+    background-color: rgba(240, 134, 47, 0.693);
+    text-align: center;
+    color: black;
+    margin: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.input1{
+    color: black;
+    background-color: rgb(202, 199, 195);
+
+}
