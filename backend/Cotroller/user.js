@@ -9,4 +9,14 @@ const fetchuserRecord=async(req,res)=>{
     const student =await userModel.find()
     res.send(student)
 }
-module.exports={createuserRecord,fetchuserRecord}
+
+const deleteuserRecord=async(req,res)=>{
+    const student=await userModel.findByIdAndDelete(req.params.id)
+    res.send(student)
+}
+
+const updateuserDAta=async(req,res)=>{
+    const student=await userModel.findByIdAndUpdate(req.params.id,req.body)
+    res.send(student)
+}
+module.exports={createuserRecord,fetchuserRecord,deleteuserRecord,updateuserDAta}
